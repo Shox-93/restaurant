@@ -1,9 +1,9 @@
 export const toMoney = (value: number) => {
-    return  new Intl.NumberFormat("ru-Ru",
+    return new Intl.NumberFormat("ru-RU",
         {
             style: "currency",
             currency: "Rub",
-            maximumFractionDigits: 2
+            maximumSignificantDigits: 2
         }
     ).format(
         value

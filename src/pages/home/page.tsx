@@ -9,7 +9,7 @@ export const HomePage = () => {
                 Главная страница
             </title>
         </Helmet>
-        
+
         <Banner />
 
         <Lists />
